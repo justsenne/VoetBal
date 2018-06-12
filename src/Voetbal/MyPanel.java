@@ -16,7 +16,7 @@ public class MyPanel extends JPanel {
 	MyObject car;
 	Timer timer;
 	int counter;
-	
+
 	Image background;
 	public MyPanel() {
 		try {
@@ -24,7 +24,6 @@ public class MyPanel extends JPanel {
 		} catch (IOException e) {
 			System.out.println("Fout bij het laden van de achtergrond afbeelding. " + e.getMessage());
 		}
-	
 
 		this.setLayout(null);
 
@@ -46,11 +45,11 @@ public class MyPanel extends JPanel {
 		public void actionPerformed(ActionEvent e) {
 			add(new MyObject(++counter));
 			System.out.println("Komt-ie! ("+counter+")");
-			
-		
-		}
+
+
+		}  
 	}
-	
+
 	@Override
 	protected void paintComponent(Graphics g) {
 		// Teken de achtergrond afbeelding
