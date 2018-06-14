@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class Demo {
-	
+
 	public static void main(String[] args) {
 		JFrame myFrame = new JFrame();
 		myFrame.setSize(600, 600);

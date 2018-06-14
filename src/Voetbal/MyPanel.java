@@ -37,7 +37,6 @@ public class MyPanel extends JPanel {
 		this.remove(obj);
 		// Controleer het aantal objecten
 		System.out.println("Aantal objecten in het panel: " + this.getComponentCount());
-		
 	}
 
 	class AddCarTimerHandler implements ActionListener {
